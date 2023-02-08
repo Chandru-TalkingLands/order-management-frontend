@@ -1,0 +1,14 @@
+.main-container{
+    width: 70vw;
+    height: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 2%;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+    box-shadow: 8px 8px 8px grey;
+
+}

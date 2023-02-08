@@ -1,0 +1,88 @@
+.register-main-container{
+display: flex;
+}
+
+.register-image-container{
+    width: 100%;
+}
+
+
+.register-image-container img{
+    width: -webkit-fill-available;
+    height: 100%;
+
+}
+
+.register-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 16px;
+    width: -webkit-fill-available;
+}
+
+.register-container h2{
+    margin: 0px;
+    color: rgba(237, 9, 9, 0.7);
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 520;
+}
+
+.register-container form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.register-container form label{
+    margin: 0px;
+    color: rgba(0,0,0,0.8);
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.register-container form input{
+    width: 60%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.register-container form button{
+    width: 30%;
+    border: 1px solid rgba(0,0,0,0.6);
+    padding: 6px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgba(0,0,0,0.6);
+    /* font-size: 16px; */
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 320;
+}
+
+.register-container form button:hover{
+
+background-color: rgba(237, 9, 9, 0.7);
+color: white;
+border: 1px solid white;
+}
+
+.register-container span{
+    font-family: 'Circular-Loom';
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 320;
+    color: rgba(0,0,0,0.5);
+    align-self: flex-end;
+}
+
+.regist-link{
+    text-decoration: underline;
+    color: red;
+}
